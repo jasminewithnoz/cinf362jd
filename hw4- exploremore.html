@@ -1,0 +1,78 @@
+<!-- Responsive Web Design (RWD) Exercise II -->
+<!-- Jasmine Dempster -->
+<!-- CINF362 -->
+<!-- 2/28/25 -->
+
+<!--Note: Some code is from HW3, I added on to it with additional pages -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/landingpagestylesheet%20-%20for%20hw4.css" />
+        <title>hw3 - responsive web design</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="heading">THE WIZARD'S HANDBOOK</div>
+            <span class="sideMenuButton" onclick="openNavbar()"> </span>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hw3%20-%20about.html">About</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="sideNavigationBar" id="sideNavigationBar">
+            <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
+            <a href="index.html">Home</a>
+            <a href="hw4%20-%20about.html">About</a>
+            <a href="hw4%20-%20signup.html">Sign Up</a>
+        </div>
+
+        <div class="line" id="Home">
+            <div class="side1">
+                <h1>Explore more!</h1>
+            </div>
+            <div class="side2">
+                <img src="img/damaged-house.png" width="500" length="500" alt="sorry" />
+            </div>
+        </div>
+
+        <section class="about" id="description">
+            <div class="content">
+                <div class="title">
+                    <span>Sorry!</span>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">
+                            <a href="" target="_blank">
+                                My apologizes! But this part of the site is currently under construction! We'll be up and running
+                                again shortly!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+        <div class="footer">
+            <span>
+                Created By Jasmine Dempster for CINF362 - Intermed Interactive Design
+                Used Template by <a href="https://www.geeksforgeeks.org/" target="_blank">
+                    GeeksforGeeks
+                </a>
+            </span>
+        </div>
+    </footer>
+        
+    </body>
+</html>

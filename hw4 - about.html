@@ -1,0 +1,104 @@
+<!-- Responsive Web Design (RWD) Exercise II -->
+<!-- Jasmine Dempster -->
+<!-- CINF362 -->
+<!-- 2/28/25 -->
+
+<!--Note: Some code is from HW3, I added on to it with additional pages -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/landingpagestylesheet%20-%20for%20hw4.css" />
+        <title>hw3 - responsive web design</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="heading">THE WIZARD'S HANDBOOK</div>
+            <span class="sideMenuButton" onclick="openNavbar()"> </span>
+
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hw3%20-%20about.html">About</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="sideNavigationBar" id="sideNavigationBar">
+            <a href="#" class="closeButton" onclick="closeNavbar()"> </a>
+            <a href="index.html">Home</a>
+            <a href="hw3%20-%20about.html">About</a>
+            <a href="#">Sign Up</a>
+        </div>
+
+        <div class="line" id="Home">
+            <div class="side1">
+                <h1>About</h1>
+            </div>
+            <div class="side2">
+                <img src="img/keyboard.png" width="500" length="500" alt="keyboard" />
+            </div>
+        </div>
+
+        <section class="about" id="description">
+            <div class="content">
+                <div class="title">
+                    <span>A passion for gaming turned into an app!</span>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">
+                            <a href="" target="_blank">
+                                I started playing Magic: The Gathering with my friends a couple of months ago and had a
+                                bunch of fun getting into the franchise. However, there was a big learning curve. There
+                                were several mechanics, rules, and playstyles to learn and it was honestly really
+                                intimidating. So, when I was given the assignment to make an application prototype for
+                                the class CINF302, I took that challenge and created THE WIZARD'S HANDBOOK!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="photos">
+            <div class="content">
+                <div class="title">
+                    <span>The Development Process!</span>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">
+                            <a href="" target="_blank">
+                                Because THE WIZARD'S HANDBOOK is still prototype and because my knowledge on coding
+                                applications are very small, I decided to use Figma when it comes to designing as it's
+                                free for students and makes prototyping simple!
+                            </a>
+                            <img src="img/sketches.png" width="200" length="500" alt="sketches" />
+                            <img src="img/v1%20on%20figma.png" width="300" length="500" alt="version1" />
+                            <img src="img/editing%20v2%20on%20figma.png" width="200" length="500" alt="editing" />
+                            <img src="img/v3%20on%20figma.png" width="300" length="500" alt="version2" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+        <div class="footer">
+            <span>
+                Created By Jasmine Dempster for CINF362 - Intermed Interactive Design
+                Used Template by <a href="https://www.geeksforgeeks.org/" target="_blank">
+                    GeeksforGeeks
+                </a>
+            </span>
+        </div>
+    </footer>
+        
+    </body>
+</html>
