@@ -1,0 +1,22 @@
+/* AJAX and PHP Stylesheet */
+/* Jasmine Dempster */
+/* CINF362 */
+/* 4/11/25 */
+
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 20px;
+    text-align: center;
+}
+.response {
+    margin-top: 20px;
+    color: green;
+}
+.error {
+    color: red;
+}
+
+footer {
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
